@@ -11,8 +11,8 @@ Read more about E2B on the [E2B website](https://e2b.dev) and the official [E2B 
 
 **Hello World guide**
 
-- [TypeScript](https://github.com/e2b-dev/e2b-cookbook/tree/main/examples/hello-world-js)
-- [Python](https://github.com/e2b-dev/e2b-cookbook/tree/main/examples/hello-world-python)
+- [TypeScript](./examples/hello-world-js)
+- [Python](./examples/hello-world-python)
 
 **Open-source apps**
 
@@ -34,62 +34,74 @@ Read more about E2B on the [E2B website](https://e2b.dev) and the official [E2B 
   </thead>
   <tbody>
     <tr>
-      <td rowspan="4">OpenAI</td>
+      <td rowspan="5">OpenAI</td>
+      <td>Agents SDK</td>
+      <td>Agentic workflows running in E2B sandboxes</td>
+      <td><a href="./examples/openai-agents-sdk">Python</a></td>
+      <td>-</td>
+    </tr>
+    <tr>
       <td>o1, o3-mini</td>
       <td>Data analysis and visualization of a CSV</td>
-      <td><a href="https://github.com/e2b-dev/e2b-cookbook/tree/main/examples/openai-python">Python</a></td>
-      <td><a href="https://github.com/e2b-dev/e2b-cookbook/tree/main/examples/openai-js">TypeScript</a></td>
+      <td><a href="./examples/openai-python">Python</a></td>
+      <td><a href="./examples/openai-js">TypeScript</a></td>
     </tr>
     <tr>
       <td>GPT-4o</td>
       <td>Code interpreter and reasoning on image data</td>
-      <td><a href="https://github.com/e2b-dev/e2b-cookbook/tree/main/examples/gpt-4o-python">Python</a></td>
-      <td><a href="https://github.com/e2b-dev/e2b-cookbook/tree/main/examples/gpt-4o-js">TypeScript</a></td>
+      <td><a href="./examples/gpt-4o-python">Python</a></td>
+      <td><a href="./examples/gpt-4o-js">TypeScript</a></td>
     </tr>
     <tr>
       <td>o1, o3-mini, GPT-4</td>
       <td>Code interpreter for ML on dataset</td>
-      <td><a href="https://github.com/e2b-dev/e2b-cookbook/tree/main/examples/o1-and-gpt-4-python">Python</a></td>
-      <td><a href="https://github.com/e2b-dev/e2b-cookbook/tree/main/examples/o1-and-gpt-4-js">TypeScript</a></td>
+      <td><a href="./examples/o1-and-gpt-4-python">Python</a></td>
+      <td><a href="./examples/o1-and-gpt-4-js">TypeScript</a></td>
     </tr>
     <tr>
       <td>Codex CLI</td>
       <td>OpenAI Codex, running inside a Sandbox</td>
-      <td><a href="https://github.com/e2b-dev/e2b-cookbook/tree/main/examples/openai-codex-in-sandbox-python">Python</a></td>
-      <td><a href="https://github.com/e2b-dev/e2b-cookbook/tree/main/examples/openai-codex-in-sandbox-js">TypeScript</a></td>
+      <td><a href="./examples/openai-codex-in-sandbox-python">Python</a></td>
+      <td><a href="./examples/openai-codex-in-sandbox-js">TypeScript</a></td>
     </tr>
     <tr>
-      <td rowspan="2">Anthropic</td>
+      <td rowspan="3">Anthropic</td>
       <td>Claude 3 Opus</td>
       <td>Code interpreter</td>
-      <td><a href="https://github.com/e2b-dev/e2b-cookbook/tree/main/examples/claude-code-interpreter-python">Python</a></td>
-      <td><a href="https://github.com/e2b-dev/e2b-cookbook/tree/main/examples/claude-code-interpreter-js">TypeScript</a></td>
+      <td><a href="./examples/claude-code-interpreter-python">Python</a></td>
+      <td><a href="./examples/claude-code-interpreter-js">TypeScript</a></td>
     </tr>
     <tr>
       <td>Claude Code</td>
       <td>Claude Code, running inside a Sandbox</td>
-      <td><a href="https://github.com/e2b-dev/e2b-cookbook/tree/main/examples/anthropic-claude-code-in-sandbox-python">Python</a></td>
-      <td><a href="https://github.com/e2b-dev/e2b-cookbook/tree/main/examples/anthropic-claude-code-in-sandbox-js">TypeScript</a></td>
+      <td><a href="./examples/anthropic-claude-code-in-sandbox-python">Python</a></td>
+      <td><a href="./examples/anthropic-claude-code-in-sandbox-js">TypeScript</a></td>
+    </tr>
+    <tr>
+      <td>Claude Managed Agents</td>
+      <td>Self-hosted worker running inside a Sandbox</td>
+      <td><a href="./examples/anthropic-managed-agents/python">Python</a></td>
+      <td>-</td>
     </tr>
     <tr>
       <td>Mistral</td>
       <td>Codestral</td>
       <td>Code interpreter</td>
-      <td><a href="https://github.com/e2b-dev/e2b-cookbook/tree/main/examples/codestral-code-interpreter-python">Python</a></td>
-      <td><a href="https://github.com/e2b-dev/e2b-cookbook/tree/main/examples/codestral-code-interpreter-js">TypeScript</a></td>
+      <td><a href="./examples/codestral-code-interpreter-python">Python</a></td>
+      <td><a href="./examples/codestral-code-interpreter-js">TypeScript</a></td>
     </tr>
     <tr>
       <td>Groq</td>
       <td>Llama 3</td>
       <td>Code interpreter via function calling</td>
-      <td><a href="https://github.com/e2b-dev/e2b-cookbook/blob/main/examples/groq-code-interpreter-python/llama_3_code_interpreter.ipynb">Python</a></td>
-      <td><a href="https://github.com/e2b-dev/e2b-cookbook/blob/main/examples/groq-code-interpreter-js">TypeScript</a></td>
+      <td><a href="./examples/groq-code-interpreter-python/llama_3_code_interpreter.ipynb">Python</a></td>
+      <td><a href="./examples/groq-code-interpreter-js">TypeScript</a></td>
     </tr>
     <tr>
       <td rowspan="2">Fireworks AI</td>
       <td>Qwen2.5-Coder-32B-Instruct</td>
       <td>Code interpreter</td>
-      <td><a href="https://github.com/e2b-dev/e2b-cookbook/blob/main/examples/fireworks-code-interpreter-python/qwen_code_interpreter.ipynb">Python</a></td>
+      <td><a href="./examples/fireworks-code-interpreter-python/qwen_code_interpreter.ipynb">Python</a></td>
       <td>-</td>
     </tr>
     <tr>
@@ -102,15 +114,15 @@ Read more about E2B on the [E2B website](https://e2b.dev) and the official [E2B 
       <td>Together AI</td>
       <td>Llama 3.1, Qwen 2, Code Llama, DeepSeek Coder</td>
       <td>Code interpreter</td>
-      <td><a href="https://github.com/e2b-dev/e2b-cookbook/tree/main/examples/together-ai-code-interpreter-python">Python</a></td>
-      <td><a href="https://github.com/e2b-dev/e2b-cookbook/tree/main/examples/together-ai-code-interpreter-js">TypeScript</a></td>
+      <td><a href="./examples/together-ai-code-interpreter-python">Python</a></td>
+      <td><a href="./examples/together-ai-code-interpreter-js">TypeScript</a></td>
     </tr>
     <tr>
       <td>WatsonX AI</td>
       <td>IBM Graphite, Llama, Mistral</td>
       <td>Code interpreter</td>
-      <td><a href="https://github.com/e2b-dev/e2b-cookbook/tree/main/examples/watsonx-ai-code-interpreter-python">Python</a></td>
-      <td><a href="https://github.com/e2b-dev/e2b-cookbook/tree/main/examples/watsonx-ai-code-interpreter-js">TypeScript</a></td>
+      <td><a href="./examples/watsonx-ai-code-interpreter-python">Python</a></td>
+      <td><a href="./examples/watsonx-ai-code-interpreter-js">TypeScript</a></td>
     </tr>
   </tbody>
 </table>
@@ -130,37 +142,43 @@ Read more about E2B on the [E2B website](https://e2b.dev) and the official [E2B 
     <tr>
       <td>🦜⛓️ LangChain</td>
       <td>LangChain with Code Interpreter</td>
-      <td><a href="https://github.com/e2b-dev/e2b-cookbook/tree/main/examples/langchain-python">Python</a></td>
+      <td><a href="./examples/langchain-python">Python</a></td>
       <td>-</td>
     </tr>
     <tr>
       <td>🦜🕸️ LangGraph</td>
       <td>LangGraph with code interpreter</td>
-      <td><a href="https://github.com/e2b-dev/e2b-cookbook/tree/main/examples/langgraph-python">Python</a></td>
+      <td><a href="./examples/langgraph-python">Python</a></td>
       <td>-</td>
     </tr>
     <tr>
       <td>Autogen</td>
       <td>Autogen with secure sandboxed for code interpreting</td>
-      <td><a href="https://github.com/e2b-dev/e2b-cookbook/tree/main/examples/autogen-python">Python</a></td>
+      <td><a href="./examples/autogen-python">Python</a></td>
       <td>-</td>
     </tr>
     <tr>
     <td>▲ Vercel AI SDK</td>
       <td>Next.js + AI SDK + Code Interpreter</td>
       <td>-</td>
-      <td><a href="https://github.com/e2b-dev/e2b-cookbook/tree/main/examples/nextjs-code-interpreter">TypeScript</a></td>
+      <td><a href="./examples/nextjs-code-interpreter">TypeScript</a></td>
     </tr>
     <tr>
     <td>AgentKit</td>
       <td>AgentKit Coding Agent</td>
       <td>-</td>
-      <td><a href="https://github.com/e2b-dev/e2b-cookbook/tree/main/examples/agentkit-coding-agent">TypeScript</a></td>
+      <td><a href="./examples/agentkit-coding-agent">TypeScript</a></td>
+    </tr>
+    <tr>
+    <td><a href="https://sandboxagent.dev/docs/sdk-overview">Sandbox Agent SDK</a></td>
+      <td>Run Sandbox Agent inside E2B and connect with the SDK</td>
+      <td>-</td>
+      <td><a href="./examples/sandbox-agent-sdk-js">TypeScript</a></td>
     </tr>
     <tr>
       <td>Stirrup</td>
       <td>The lightweight framework for building agents</td>
-      <td><a href="https://github.com/e2b-dev/e2b-cookbook/tree/main/examples/stirrup-python">Python</a></td>
+      <td><a href="./examples/stirrup-python">Python</a></td>
       <td>-</td>
     </tr>
   </tbody>
@@ -180,46 +198,46 @@ Read more about E2B on the [E2B website](https://e2b.dev) and the official [E2B 
     <tr>
       <td>MCP Client</td>
       <td>Basic MCP client connection to E2B sandbox</td>
-      <td><a href="https://github.com/e2b-dev/e2b-cookbook/tree/main/examples/mcp-client-js">TypeScript</a></td>
+      <td><a href="./examples/mcp-client-js">TypeScript</a></td>
     </tr>
     <tr>
       <td>MCP Custom Server</td>
       <td>Connect to custom filesystem MCP server from GitHub</td>
-      <td><a href="https://github.com/e2b-dev/e2b-cookbook/tree/main/examples/mcp-custom-server-js">TypeScript</a></td>
+      <td><a href="./examples/mcp-custom-server-js">TypeScript</a></td>
     </tr>
     <tr>
       <td>MCP Custom Template</td>
       <td>Create custom E2B template with pre-installed MCP servers</td>
-      <td><a href="https://github.com/e2b-dev/e2b-cookbook/tree/main/examples/mcp-custom-template-js">TypeScript</a></td>
+      <td><a href="./examples/mcp-custom-template-js">TypeScript</a></td>
     </tr>
     <tr>
       <td>MCP Research Agent</td>
       <td>Research agent using arXiv and DuckDuckGo MCP servers</td>
-      <td><a href="https://github.com/e2b-dev/e2b-cookbook/tree/main/examples/mcp-research-agent-js">TypeScript</a></td>
+      <td><a href="./examples/mcp-research-agent-js">TypeScript</a></td>
     </tr>
     <tr>
       <td>MCP Claude Code</td>
       <td>Claude Code with MCP integration</td>
-      <td><a href="https://github.com/e2b-dev/e2b-cookbook/tree/main/examples/mcp-claude-code-js">TypeScript</a></td>
+      <td><a href="./examples/mcp-claude-code-js">TypeScript</a></td>
     </tr>
     <tr>
       <td>MCP Browserbase</td>
       <td>Web automation agent using Browserbase MCP server</td>
-      <td><a href="https://github.com/e2b-dev/e2b-cookbook/tree/main/examples/mcp-browserbase-js">TypeScript</a></td>
+      <td><a href="./examples/mcp-browserbase-js">TypeScript</a></td>
     </tr>
     <tr>
       <td>MCP Groq Exa</td>
       <td>AI research using Groq with Exa MCP server</td>
-      <td><a href="https://github.com/e2b-dev/e2b-cookbook/tree/main/examples/mcp-groq-exa-js">TypeScript</a></td>
+      <td><a href="./examples/mcp-groq-exa-js">TypeScript</a></td>
     </tr>
   </tbody>
 </table>
 
 **Example use cases**
 
-- Upload dataset and analyze it with Llama 3 - [Python](https://github.com/e2b-dev/e2b-cookbook/tree/main/examples/upload-dataset-code-interpreter)
-- Scrape Airbnb and analyze data with Claude 3 Opus and Firecrawl - [TypeScript](https://github.com/e2b-dev/e2b-cookbook/tree/main/examples/firecrawl-scrape-and-analyze-airbnb-data)
-- Visualize website topics with Claude 3.5 Sonnet and Firecrawl - [Python](https://github.com/e2b-dev/e2b-cookbook/tree/main/examples/claude-visualize-website-topics)
-- Next.js app with LLM + Code Interpreter and streaming - [TypeScript](https://github.com/e2b-dev/e2b-cookbook/tree/main/examples/nextjs-code-interpreter)
-- How to run a Docker container in E2B - [Python/TypeScript](https://github.com/e2b-dev/e2b-cookbook/tree/main/examples/docker-in-e2b)
-- How to run Playwright in E2B - [TypeScript](https://github.com/e2b-dev/e2b-cookbook/tree/main/examples/playwright-in-e2b)
+- Upload dataset and analyze it with Llama 3 - [Python](./examples/upload-dataset-code-interpreter)
+- Scrape Airbnb and analyze data with Claude 3 Opus and Firecrawl - [TypeScript](./examples/firecrawl-scrape-and-analyze-airbnb-data)
+- Visualize website topics with Claude 3.5 Sonnet and Firecrawl - [Python](./examples/claude-visualize-website-topics)
+- Next.js app with LLM + Code Interpreter and streaming - [TypeScript](./examples/nextjs-code-interpreter)
+- How to run a Docker container in E2B - [Python/TypeScript](./examples/docker-in-e2b)
+- How to run Playwright in E2B - [TypeScript](./examples/playwright-in-e2b)
