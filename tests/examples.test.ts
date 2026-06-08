@@ -38,6 +38,7 @@ const scripts = [
   { name: 'mcp-claude-code-js', interpreter: 'npm', file: './examples/mcp-claude-code-js/' },
   { name: 'mcp-browserbase-js', interpreter: 'npm', file: './examples/mcp-browserbase-js/' },
   { name: 'mcp-groq-exa-js', interpreter: 'npm', file: './examples/mcp-groq-exa-js/' },
+  { name: 'sandbox-agent-sdk-js', interpreter: 'npm', file: './examples/sandbox-agent-sdk-js/' },
 ];
 
 // We don't have integration tests for NextJS yet:
